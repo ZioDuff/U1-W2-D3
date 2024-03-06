@@ -199,10 +199,10 @@ if (crewMass < 500) {
 */
 for (i = 0; i < starWarsCharacters.length; i++) {
   if (starWarsCharacters[i].gender === "n/a") {
-    delete starWarsCharacters[i].gender
     starWarsCharacters[i].gender = "robot"
+
     console.log(starWarsCharacters[i].gender)
-  } else starWarsCharacters[i].gender !== "n/a"
+  }
 }
 
 /* --EXTRA-- ESERCIZIO 9
